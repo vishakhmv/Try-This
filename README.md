@@ -54,13 +54,23 @@ Follow these steps to get the project running locally:
 
 ## Project Structure
 
+```text
 Try-This/
 ├── public/             # Static files (CSS)
 │   └── styles/
 │       └── main.css
-├── views/              # EJS Templates
+├── views/
 │   └── index.ejs       # Main UI and form
 ├── index.js            # Main server entry point (Express logic)
 ├── package.json        # Project metadata and dependencies
 ├── package-lock.json
 └── README.md           # Documentation
+```
+
+## Credits
+
+This project started from a basic structure provided in Angela Yu’s Web
+Development course (App Brewery). All remaining work, including application
+logic, error handling, and complete UI styling, was done by me for learning and
+portfolio purposes.
+
