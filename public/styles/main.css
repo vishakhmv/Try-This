@@ -29,7 +29,7 @@ body {
   font-size: clamp(2.2rem, 6vmin, 3.2rem);
   font-weight: 800;
   letter-spacing: -0.03em;
-  color: #4a3f2e;
+  color: #433828;
 }
 
 .main-heading span {
@@ -39,7 +39,7 @@ body {
 h1 {
   width: 100%;
   margin-bottom: 40px;
-  color: #4a3f2e;
+  color: #433828;
   text-align: center;
 }
 
@@ -50,7 +50,8 @@ h1 {
   padding-right: 10px;
   font-size: medium;
   background-color: #fdfaf496;
-  color: #433828;
+  color: #4a3f2e;
+  border: 2px solid #4a3f2e;
 }
 
 .container {
@@ -71,7 +72,7 @@ h1 {
 
 .form-submit {
   outline: none;
-  border: 1px solid #4a3f2e;
+  border: 2px solid #4a3f2e;
   background-color: #d9b257;
   cursor: pointer;
   font-family: monospace;
@@ -82,12 +83,9 @@ h1 {
   font-size: 4vmin;
 }
 
-.form-submit:focus {
-  box-shadow: 0 0 0 0.5px rgb(153, 153, 153);
-}
-
 .form-submit:hover {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: -3px 3px 6px rgba(74, 63, 46, 0.25);
 }
 
 .cards {
@@ -102,7 +100,7 @@ h1 {
   padding: 5px 20px 20px;
   background-color: #fdf4d7;
   border-radius: 1rem;
-  border: 1px solid #4a3f2e;
+  border: 2px solid #4a3f2e;
 }
 
 .card-info {
@@ -120,12 +118,12 @@ h1 {
 }
 
 .card-type {
-  color: #433828;
+  color: #4a3f2e;
   font-size: 1.6rem;
 }
 
 .card-participants {
-  color: #433828;
+  color: #4a3f2e;
   font-size: 1.6rem;
 }
 
@@ -140,7 +138,7 @@ h1 {
   font-size: 2rem;
   background-color: #fdf4d7;
   border-radius: 1rem;
-  border: 1px solid #4a3f2e;
+  border: 2px solid #4a3f2e;
   margin: auto;
   min-height: 25vmin;
 }
